@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "AquaTrack",
+    "slug": "aquatrack-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#0B79D0"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "AquaTrack uses your location to pull local weather and adjust your hydration goal."
+      }
+    },
+    "android": {
+      "package": "com.aakashsapatnekar.aquatrack",
+      "permissions": ["ACCESS_COARSE_LOCATION", "ACCESS_FINE_LOCATION"]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
