@@ -1,16 +1,16 @@
 # 💧 AquaTrack
 
-AquaTrack is a cross-platform hydration-tracking mobile app built with **React Native** and **Expo**. It lets users log their daily water intake and dynamically adjusts their hydration goal using **real-time weather data** from the **Open-Meteo API** — so on hot days, the app recommends drinking more.
+AquaTrack is a cross-platform hydration-tracking mobile app built with **React Native** and **Expo**. It lets users log their daily water intake and dynamically adjusts their hydration goal using **real-time weather data** from the **Open-Meteo API**- so on hot days, the app recommends drinking more.
 
 Built as a rapid hackathon-style prototype focused on a clean core experience: log water, see live weather, get a smarter daily target.
 
 ## ✨ Features
 
-- **Quick water logging** — one-tap buttons to add 250ml / 500ml / 750ml to your daily total
-- **Live weather integration** — pulls current temperature and conditions from [Open-Meteo](https://open-meteo.com/) based on device location
-- **Dynamic hydration goal** — baseline goal calculated from body weight (~35ml/kg), automatically increased on hot or humid days
-- **Persistent daily tracking** — intake is saved locally with `AsyncStorage` and resets automatically each new day
-- **Graceful fallback** — if location permission is denied or the weather API is unreachable, the app still works using a weight-based baseline goal
+- **Quick water logging**- one-tap buttons to add 250ml / 500ml / 750ml to your daily total
+- **Live weather integration**- pulls current temperature and conditions from [Open-Meteo](https://open-meteo.com/) based on device location
+- **Dynamic hydration goal**- baseline goal calculated from body weight (~35ml/kg), automatically increased on hot or humid days
+- **Persistent daily tracking**- intake is saved locally with `AsyncStorage` and resets automatically each new day
+- **Graceful fallback**- if location permission is denied or the weather API is unreachable, the app still works using a weight-based baseline goal
 
 ## 🛠️ Tech Stack
 
